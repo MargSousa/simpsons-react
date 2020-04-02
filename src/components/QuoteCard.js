@@ -11,7 +11,7 @@ class QuoteCard extends React.Component {
       <figure className="QuoteCard">
         <figcaption>
           <p><cite className="name">{this.props.simpson.character}</cite></p>
-          <blockquote>{this.props.simpson.quote}</blockquote>
+          <blockquote class="text">{this.props.simpson.quote}</blockquote>
         </figcaption>
         <img className="image"
           src={this.props.simpson.image}
